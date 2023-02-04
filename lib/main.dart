@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-// import 'package:kite_size_app/screens/stack_widgets.dart';
-import 'package:kite_size_app/screens/text_input.dart';
+import 'package:kite_size_app/screens/stack_widgets.dart';
+// import 'package:kite_size_app/screens/text_input.dart';
 // import 'package:kite_size_app/screens/tiktok_scroll_widget.dart';
 //import 'package:kite_size_app/screens/rich_text.dart';
 //import 'package:kite_size_app/screens/timer_lessons.dart';
@@ -31,8 +31,8 @@ void main() {
     //home: const MyRichText(),
     // home: const MyTimer(),
     // home: TikTokScrollWiew(),
-    // home: const MyStackWidget(),
-    home: const MyTextInput(),
+    home: const MyStackWidget(),
+    // home: const MyTextInput(),
     theme: ThemeData(primarySwatch: Colors.deepPurple),
   ));
 }
